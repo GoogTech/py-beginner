@@ -1,8 +1,8 @@
 '''
 Author: Goog Tech
 Date: 2020-08-05 21:09:36
-LastEditTime: 2020-08-06 22:38:46
-Description: CURD of Python With SQlite
+LastEditTime: 2020-08-07 09:04:57
+Description: CURD of Python3 With SQlite3
 FilePath: \py-beginner\SQLite\Curd.py
 '''
 
@@ -24,8 +24,8 @@ class Curd:
     def close(self):
         global cursor
         global connection
-        cursor.close
-        connection.close
+        cursor.close()
+        connection.close()
 
     ''' 连接数据库 '''
     def getConnection(self):
